@@ -58,3 +58,7 @@ bike1.display_info()
 print()
 print(f"Rental cost for {car1.brand} {car1.model} for 3 days: ${car1.calculate_rental_cost(3)}")
 print(f"Rental cost for {bike1.brand} {bike1.model} for 5 days: ${bike1.calculate_rental_cost(5)}")
+
+print()
+car1.set_rental_price_per_day(55)
+print(f"Updated rental price for {car1.brand} {car1.model}: ${car1.get_rental_price_per_day()}/day")
