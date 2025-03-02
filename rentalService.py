@@ -11,3 +11,10 @@ class Vehicle:
 
     def calculate_rental_cost(self, days):
         return days * self.get_rental_price_per_day()
+
+    # Setter for rental_price_per_day
+    def set_rental_price_per_day(self, new_price):
+        if isinstance(new_price, (int,float)) and new_price > 0:
+            self.__rental_price_per_day = new_price
+        else:
+            print("Invalid rental price! It must be a positive number.")
