@@ -26,3 +26,7 @@ class Vehicle:
 
 # Class Car Inherits from Class Vehicle
 class Car(Vehicle):
+    def __init__(self,brand,model,year,rental_price_per_day,seating_capacity):
+        super().__init__(brand,model,year,rental_price_per_day)
+        self.seating_capacity = seating_capacity
+
