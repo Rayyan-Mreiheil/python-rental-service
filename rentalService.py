@@ -22,3 +22,7 @@ class Vehicle:
     # Getter for rental_price_per_day
     def get_rental_price_per_day(self):
         return self.__rental_price_per_day
+
+
+# Class Car Inherits from Class Vehicle
+class Car(Vehicle):
