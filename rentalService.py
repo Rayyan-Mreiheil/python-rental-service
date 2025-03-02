@@ -51,3 +51,6 @@ def show_vehicle_info(vehicle):
 # Create instances of Car and Bike
 car1 = Car("Toyota","Corolla",2020,50,5)
 bike1 = Bike("Yamaha","R1",2019,30,998)
+
+car1.display_info()
+bike1.display_info()
