@@ -46,7 +46,7 @@ class Bike(Vehicle):
 
 
 def show_vehicle_info(vehicle):
-    vehicle.display_info(self)
+    vehicle.display_info()
 
 # Create instances of Car and Bike
 car1 = Car("Toyota","Corolla",2020,50,5)
@@ -62,3 +62,7 @@ print(f"Rental cost for {bike1.brand} {bike1.model} for 5 days: ${bike1.calculat
 print()
 car1.set_rental_price_per_day(55)
 print(f"Updated rental price for {car1.brand} {car1.model}: ${car1.get_rental_price_per_day()}/day")
+
+print()
+show_vehicle_info(car1)
+show_vehicle_info(bike1)
