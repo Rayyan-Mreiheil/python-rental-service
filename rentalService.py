@@ -18,3 +18,7 @@ class Vehicle:
             self.__rental_price_per_day = new_price
         else:
             print("Invalid rental price! It must be a positive number.")
+
+    # Getter for rental_price_per_day
+    def get_rental_price_per_day(self):
+        return self.__rental_price_per_day
