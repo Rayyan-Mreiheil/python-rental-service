@@ -33,3 +33,6 @@ class Car(Vehicle):
     def display_info(self):
         print(f"Car: {self.brand} {self.model}, Year: {self.year}, Seats: {self.seating_capacity}, Rental Price: ${self.get_rental_price_per_day()}/day")
 
+
+# Class Car Inherits from Class Vehicle
+class Bike(Vehicle):
