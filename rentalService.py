@@ -36,3 +36,6 @@ class Car(Vehicle):
 
 # Class Car Inherits from Class Vehicle
 class Bike(Vehicle):
+    def __init__(self,brand,model,year,rental_price_per_day,engine_capacity):
+        super().__init__(brand,model,year,rental_price_per_day)
+        self.engine_capacity = engine_capacity
